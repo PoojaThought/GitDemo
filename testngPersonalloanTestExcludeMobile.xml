@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test name="PersonalLoan">
+	  <classes>
+		  <class name="Test.PersonalLoanLoginTest">
+		  	<methods>
+				  <exclude name="MobileLogin" />
+			  </methods>
+		  </class>
+		  <class name="Test.PersonalLoanNewUserTest" >
+			  <methods>
+				  <exclude name="MobileCreateNewUser"/>
+			   </methods>			  
+		  </class>		 	  
+	  </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

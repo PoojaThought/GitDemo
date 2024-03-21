@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <parameter name="URL" value="www.google.com"></parameter>
+  <test name="PersonalLoan">
+	  <parameter name="personalLoanURL" value="personalloan.com"></parameter>
+	  <classes>
+		  <class name="Test.PersonalLoanLoginTest"/>
+		  <class name="Test.PersonalLoanNewUserTest"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="HomeLoan">
+	  <parameter name="homeLoanURL" value="homeloan.com"></parameter>
+	  <classes>
+		  <class name="Test.HomeLoanLoginTest"/>
+	  </classes>
+  </test> <!-- Test -->
+  <test name="CarLoan">
+	  <classes>
+		  <class name="Test.CarLoanLoginTest"/>
+	  </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

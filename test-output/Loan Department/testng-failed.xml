@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Test.Listeners"/>
+  </listeners>
+  <test name="PersonalLoan(failed)">
+    <classes>
+      <class name="Test.PersonalLoanLoginTest">
+        <methods>
+          <include name="WebLogin"/>
+        </methods>
+      </class> <!-- Test.PersonalLoanLoginTest -->
+      <class name="Test.PersonalLoanNewUserTest">
+        <methods>
+          <include name="WebCreateNewUser"/>
+          <include name="clearDataBeforeModuleExecution"/>
+        </methods>
+      </class> <!-- Test.PersonalLoanNewUserTest -->
+    </classes>
+  </test> <!-- PersonalLoan(failed) -->
+  <test name="HomeLoan(failed)">
+    <classes>
+      <class name="Test.HomeLoanLoginTest">
+        <methods>
+          <include name="WebLogin"/>
+        </methods>
+      </class> <!-- Test.HomeLoanLoginTest -->
+    </classes>
+  </test> <!-- HomeLoan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

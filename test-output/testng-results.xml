@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T21:08:34Z" name="Loan Department" finished-at="2024-02-27T21:08:34Z" duration-ms="53">
+    <groups>
+      <group name="smoke">
+        <method signature="PersonalLoanLoginTest.MobileLogin()[pri:0, instance:Test.PersonalLoanLoginTest@2cbb3d47]" name="MobileLogin" class="Test.PersonalLoanLoginTest"/>
+        <method signature="PersonalLoanNewUserTest.MobileCreateNewUser()[pri:0, instance:Test.PersonalLoanNewUserTest@7fc229ab]" name="MobileCreateNewUser" class="Test.PersonalLoanNewUserTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-27T21:08:34Z" name="PersonalLoan" finished-at="2024-02-27T21:08:34Z" duration-ms="53">
+      <class name="Test.PersonalLoanLoginTest">
+        <test-method signature="APILogin()[pri:0, instance:Test.PersonalLoanLoginTest@2cbb3d47]" started-at="2024-02-27T16:08:34Z" name="APILogin" finished-at="2024-02-27T16:08:34Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILogin -->
+        <test-method signature="MobileLogin()[pri:0, instance:Test.PersonalLoanLoginTest@2cbb3d47]" started-at="2024-02-27T16:08:34Z" name="MobileLogin" finished-at="2024-02-27T16:08:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="WebLogin(java.lang.String)[pri:0, instance:Test.PersonalLoanLoginTest@2cbb3d47]" started-at="2024-02-27T16:08:34Z" name="WebLogin" finished-at="2024-02-27T16:08:34Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="MobileLogout()[pri:0, instance:Test.PersonalLoanLoginTest@2cbb3d47]" started-at="2024-02-27T16:08:34Z" name="MobileLogout" finished-at="2024-02-27T16:08:34Z" depends-on-methods="Test.PersonalLoanLoginTest.MobileLogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogout -->
+      </class> <!-- Test.PersonalLoanLoginTest -->
+      <class name="Test.PersonalLoanNewUserTest">
+        <test-method is-config="true" signature="clearDataBeforeModuleExecution()[pri:0, instance:Test.PersonalLoanNewUserTest@7fc229ab]" started-at="2024-02-27T16:08:34Z" name="clearDataBeforeModuleExecution" finished-at="2024-02-27T16:08:34Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearDataBeforeModuleExecution -->
+        <test-method signature="MobileCreateNewUser()[pri:0, instance:Test.PersonalLoanNewUserTest@7fc229ab]" started-at="2024-02-27T16:08:34Z" name="MobileCreateNewUser" finished-at="2024-02-27T16:08:34Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCreateNewUser -->
+        <test-method signature="MobileDeleteUser()[pri:0, instance:Test.PersonalLoanNewUserTest@7fc229ab]" started-at="2024-02-27T16:08:34Z" name="MobileDeleteUser" finished-at="2024-02-27T16:08:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileDeleteUser -->
+        <test-method signature="WebCreateNewUser(java.lang.String)[pri:0, instance:Test.PersonalLoanNewUserTest@7fc229ab]" started-at="2024-02-27T16:08:34Z" name="WebCreateNewUser" finished-at="2024-02-27T16:08:34Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCreateNewUser -->
+      </class> <!-- Test.PersonalLoanNewUserTest -->
+    </test> <!-- PersonalLoan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
