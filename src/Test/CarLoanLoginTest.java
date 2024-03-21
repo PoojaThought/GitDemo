@@ -23,13 +23,13 @@ public class CarLoanLoginTest
 	@Test(groups= {"smoke"})
 	public void MobileLogin()
 	{
-		System.out.println("CarLoan - MobileLogin");
+		System.out.println("CarLoan - MobileLoginmmmmmmmmm");
 	}
 
 	@Test
 	public void APILogin()
 	{
-		System.out.println("CarLoan - APILogin");
+		System.out.println("CarLoan - APILoginnnnnnnnnn");
 	}
 	
 	@BeforeSuite
